@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zxing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zxing">
+				<Option output="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/zxing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNO_ICONV=1"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Users/luciuszhang/development/workspaces/source/zxing-cpp/opencv/src"/>
+					<Add directory="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0/x86_64-apple-darwin18.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 zxing"/>
+					<CompileFile command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zxing/fast">
+				<Option output="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/zxing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNO_ICONV=1"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Users/luciuszhang/development/workspaces/source/zxing-cpp/opencv/src"/>
+					<Add directory="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0/x86_64-apple-darwin18.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 zxing/fast"/>
+					<CompileFile command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zxing-cv">
+				<Option output="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/zxing-cv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNO_ICONV=1"/>
+					<Add directory="/Users/luciuszhang/development/workspaces/source/zxing-cpp/opencv/src"/>
+					<Add directory="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0/x86_64-apple-darwin18.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 zxing-cv"/>
+					<CompileFile command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zxing-cv/fast">
+				<Option output="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/zxing-cv" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNO_ICONV=1"/>
+					<Add directory="/Users/luciuszhang/development/workspaces/source/zxing-cpp/opencv/src"/>
+					<Add directory="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0/x86_64-apple-darwin18.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 zxing-cv/fast"/>
+					<CompileFile command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libzxing">
+				<Option output="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/libzxing.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNO_ICONV=1"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Users/luciuszhang/development/workspaces/source/zxing-cpp/opencv/src"/>
+					<Add directory="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0/x86_64-apple-darwin18.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 libzxing"/>
+					<CompileFile command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libzxing/fast">
+				<Option output="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/libzxing.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/luciuszhang/development/workspaces/source/zxing-cpp/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DNO_ICONV=1"/>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/Users/luciuszhang/development/workspaces/source/zxing-cpp/opencv/src"/>
+					<Add directory="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0/x86_64-apple-darwin18.0.0"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/../../../../../../include/c++/8.2.0/backward"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include"/>
+					<Add directory="/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin18.0.0/8.2.0/include-fixed"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 libzxing/fast"/>
+					<CompileFile command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/Cellar/make/4.2.1_1/bin/gmake -j12 -f &quot;/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/cli/src/ImageReaderSource.cpp">
+			<Option target="zxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/cli/src/ImageReaderSource.h">
+			<Option target="zxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/cli/src/jpgd.cpp">
+			<Option target="zxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/cli/src/jpgd.h">
+			<Option target="zxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/cli/src/lodepng.cpp">
+			<Option target="zxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/cli/src/lodepng.h">
+			<Option target="zxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/cli/src/main.cpp">
+			<Option target="zxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/bigint/BigInteger.cc">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/bigint/BigInteger.hh">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/bigint/BigIntegerAlgorithms.cc">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/bigint/BigIntegerAlgorithms.hh">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/bigint/BigIntegerLibrary.hh">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/bigint/BigIntegerUtils.cc">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/bigint/BigIntegerUtils.hh">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/bigint/BigUnsigned.cc">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/bigint/BigUnsigned.hh">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/bigint/BigUnsignedInABase.cc">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/bigint/BigUnsignedInABase.hh">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/bigint/NumberlikeArray.hh">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/BarcodeFormat.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/BarcodeFormat.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/Binarizer.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/Binarizer.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/BinaryBitmap.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/BinaryBitmap.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/ChecksumException.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/ChecksumException.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/DecodeHints.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/DecodeHints.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/Exception.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/Exception.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/FormatException.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/FormatException.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/IllegalStateException.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/InvertedLuminanceSource.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/InvertedLuminanceSource.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/LuminanceSource.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/LuminanceSource.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/MultiFormatReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/MultiFormatReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/NotFoundException.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/Reader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/Reader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/ReaderException.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/Result.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/Result.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/ResultIO.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/ResultPoint.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/ResultPoint.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/ResultPointCallback.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/ResultPointCallback.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/ZXing.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/aztec/AztecDetectorResult.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/aztec/AztecDetectorResult.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/aztec/AztecReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/aztec/AztecReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/aztec/decoder/Decoder.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/aztec/decoder/Decoder.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/aztec/detector/Detector.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/aztec/detector/Detector.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/Array.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/BitArray.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/BitArray.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/BitArrayIO.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/BitMatrix.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/BitMatrix.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/BitSource.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/BitSource.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/CharacterSetECI.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/CharacterSetECI.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/Counted.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/DecoderResult.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/DecoderResult.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/DetectorResult.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/DetectorResult.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/GlobalHistogramBinarizer.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/GlobalHistogramBinarizer.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/GreyscaleLuminanceSource.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/GreyscaleLuminanceSource.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/GreyscaleRotatedLuminanceSource.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/GreyscaleRotatedLuminanceSource.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/GridSampler.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/GridSampler.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/HybridBinarizer.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/HybridBinarizer.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/IllegalArgumentException.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/IllegalArgumentException.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/PerspectiveTransform.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/PerspectiveTransform.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/Point.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/Str.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/Str.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/StringUtils.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/StringUtils.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/detector/JavaMath.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/detector/MathUtils.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/detector/MonochromeRectangleDetector.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/detector/MonochromeRectangleDetector.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/detector/WhiteRectangleDetector.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/detector/WhiteRectangleDetector.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/reedsolomon/GenericGF.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/reedsolomon/GenericGF.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/reedsolomon/GenericGFPoly.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/reedsolomon/GenericGFPoly.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/reedsolomon/ReedSolomonDecoder.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/reedsolomon/ReedSolomonDecoder.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/reedsolomon/ReedSolomonException.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/common/reedsolomon/ReedSolomonException.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/DataMatrixReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/DataMatrixReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/Version.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/Version.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/decoder/BitMatrixParser.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/decoder/BitMatrixParser.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/decoder/DataBlock.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/decoder/DataBlock.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/decoder/DecodedBitStreamParser.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/decoder/DecodedBitStreamParser.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/decoder/Decoder.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/decoder/Decoder.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/detector/CornerPoint.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/detector/CornerPoint.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/detector/Detector.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/detector/Detector.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/detector/DetectorException.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/datamatrix/detector/DetectorException.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/multi/ByQuadrantReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/multi/ByQuadrantReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/multi/GenericMultipleBarcodeReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/multi/GenericMultipleBarcodeReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/multi/MultipleBarcodeReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/multi/MultipleBarcodeReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/multi/qrcode/QRCodeMultiReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/multi/qrcode/QRCodeMultiReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/multi/qrcode/detector/MultiDetector.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/multi/qrcode/detector/MultiDetector.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/multi/qrcode/detector/MultiFinderPatternFinder.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/multi/qrcode/detector/MultiFinderPatternFinder.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/CodaBarReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/CodaBarReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/Code128Reader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/Code128Reader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/Code39Reader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/Code39Reader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/Code93Reader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/Code93Reader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/EAN13Reader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/EAN13Reader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/EAN8Reader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/EAN8Reader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/ITFReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/ITFReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/MultiFormatOneDReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/MultiFormatOneDReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/MultiFormatUPCEANReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/MultiFormatUPCEANReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/OneDReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/OneDReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/OneDResultPoint.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/OneDResultPoint.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/UPCAReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/UPCAReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/UPCEANReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/UPCEANReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/UPCEReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/oned/UPCEReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/PDF417Reader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/PDF417Reader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/decoder/BitMatrixParser.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/decoder/BitMatrixParser.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/decoder/DecodedBitStreamParser.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/decoder/DecodedBitStreamParser.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/decoder/Decoder.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/decoder/Decoder.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/decoder/ec/ErrorCorrection.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/decoder/ec/ErrorCorrection.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/decoder/ec/ModulusGF.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/decoder/ec/ModulusGF.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/decoder/ec/ModulusPoly.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/decoder/ec/ModulusPoly.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/detector/Detector.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/detector/Detector.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/detector/LinesSampler.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/pdf417/detector/LinesSampler.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/ErrorCorrectionLevel.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/ErrorCorrectionLevel.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/FormatInformation.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/FormatInformation.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/QRCodeReader.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/QRCodeReader.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/Version.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/Version.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/decoder/BitMatrixParser.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/decoder/BitMatrixParser.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/decoder/DataBlock.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/decoder/DataBlock.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/decoder/DataMask.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/decoder/DataMask.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/decoder/DecodedBitStreamParser.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/decoder/DecodedBitStreamParser.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/decoder/Decoder.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/decoder/Decoder.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/decoder/Mode.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/decoder/Mode.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/detector/AlignmentPattern.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/detector/AlignmentPattern.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/detector/AlignmentPatternFinder.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/detector/AlignmentPatternFinder.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/detector/Detector.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/detector/Detector.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/detector/FinderPattern.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/detector/FinderPattern.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/detector/FinderPatternFinder.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/detector/FinderPatternFinder.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/detector/FinderPatternInfo.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/core/src/zxing/qrcode/detector/FinderPatternInfo.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/opencv-cli/src/main.cpp">
+			<Option target="zxing-cv"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/opencv/src/zxing/MatSource.cpp">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/opencv/src/zxing/MatSource.h">
+			<Option target="libzxing"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/source_files.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/Users/luciuszhang/development/workspaces/source/zxing-cpp/cmake/zxing-config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

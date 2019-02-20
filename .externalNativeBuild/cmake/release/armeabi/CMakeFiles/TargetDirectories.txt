@@ -1,0 +1,2 @@
+/Users/luciuszhang/development/workspaces/android/QuickCode/IntQRDeocder/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/edit_cache.dir
+/Users/luciuszhang/development/workspaces/android/QuickCode/IntQRDeocder/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,9 @@
+/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/CMakeFiles/install/local.dir
+/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/CMakeFiles/install/strip.dir
+/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/CMakeFiles/install.dir
+/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/CMakeFiles/list_install_components.dir
+/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/CMakeFiles/rebuild_cache.dir
+/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/CMakeFiles/edit_cache.dir
+/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/CMakeFiles/zxing.dir
+/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/CMakeFiles/zxing-cv.dir
+/Users/luciuszhang/development/workspaces/source/zxing-cpp/build/CMakeFiles/libzxing.dir

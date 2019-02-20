@@ -1,0 +1,17 @@
+Executable : /Users/luciuszhang/development/android/android-sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/luciuszhang/development/workspaces/android/QuickCode/IntQRDeocder
+-B/Users/luciuszhang/development/workspaces/android/QuickCode/IntQRDeocder/.externalNativeBuild/cmake/debug/armeabi
+-DANDROID_ABI=armeabi
+-DANDROID_PLATFORM=android-15
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/luciuszhang/development/workspaces/android/QuickCode/IntQRDeocder/build/intermediates/cmake/debug/obj/armeabi
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/luciuszhang/development/android/android-ndk-r15c
+-DCMAKE_C_FLAGS=-lstdc++ -lz -lm -frtti -fexceptions
+-DCMAKE_CXX_FLAGS=-std=c++11 -lstdc++ -lz -lm -frtti -fexceptions
+-DCMAKE_TOOLCHAIN_FILE=/Users/luciuszhang/development/android/android-ndk-r15c/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/luciuszhang/development/android/android-sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+-DANDROID_STL=stlport_shared
+jvmArgs : 
+

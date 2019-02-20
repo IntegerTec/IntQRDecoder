@@ -13,6 +13,31 @@ android {
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
+        externalNativeBuild {
+            cmake {
+                arguments "-DANDROID_STL=stlport_shared"
+                cFlags "-lstdc++ -lz -lm -frtti -fexceptions"
+                cppFlags "-std=c++11 -lstdc++ -lz -lm -frtti -fexceptions"
+            }
+        }
+        ndk {
+            abiFilters "armeabi"
+            ldLibs "log"
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+
+    sourceSets {
+
+        main {
+            // let gradle pack the shared library into apk
+            jniLibs.srcDirs = ['src/main/cpp']
+        }
     }
 
     buildTypes {
